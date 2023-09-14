@@ -1,0 +1,70 @@
+.a_p_v_main {
+    /* border: 1px solid black; */
+    width: 80%;
+    float: right;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-right: 15px;
+  }
+  .a_p_v_title
+  {
+    margin-right: 30px;
+    /* border: 1px solid black; */
+    margin-top:50px;
+    margin-bottom: 25px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    color: dodgerblue;
+    text-shadow: 0 10px 10px rgb(121, 174, 228);
+    text-decoration: underline;
+  }
+  .a_p_v_table{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .table7{
+    font-size: large;
+    color: black;
+    text-shadow: 0 10px 10px rgb(121, 174, 228);
+    width: 100%;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+  }
+  .t7-th{
+    text-align: center;
+    align-items: center;
+  }
+  .t7-td{
+    text-align: center;
+    align-items: center;
+  }
+  .t7-tr{
+    height: 45px;
+  }
+  .t7-td:hover{
+    color: dodgerblue;
+  }
+  .a_p_v_btn{
+    text-align: center;
+    border: none;
+    height: 85 px;
+    width: 110px;
+    font-size:large;
+    background-color: dodgerblue;
+    color: white;
+    text-shadow: 2px 2px 5px white;
+    border-radius: 20px;
+}
+.a_p_v_btn:hover{
+    background-color: white;
+    box-shadow: 0 10px 10px rgb(154, 192, 230);
+    color: dodgerblue;
+    text-shadow: 2px 2px 5px rgb(186, 213, 241);
+}

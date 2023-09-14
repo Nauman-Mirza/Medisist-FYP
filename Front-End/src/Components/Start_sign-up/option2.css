@@ -1,0 +1,55 @@
+.signup-main-div2 {
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 5%; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .doc-div-forsignup {
+   /* border: 1px solid black; */
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  .doc_logo_signup {
+    width: 60%;
+    height: 70%;
+    mix-blend-mode: multiply;
+  }
+  .patient-div-forsignup {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pat_logo_signup {
+    width: 60%;
+    height: 70%;
+    mix-blend-mode: multiply;
+  }
+  .btn_signup {
+    border: none;
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    font-size: 100%;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20px;
+    text-shadow: 2px 2px 5px white;
+    text-align: center;
+  }
+  .btn_signup:hover {
+    background-color: white;
+  box-shadow: 0 10px 10px rgb(154, 192, 230);
+  color: dodgerblue;
+  text-shadow: 2px 2px 5px rgb(186, 213, 241);
+  }

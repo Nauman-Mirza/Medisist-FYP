@@ -1,0 +1,187 @@
+.main-p-signup {
+  border-radius: 5px;
+  height: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-p-logo {
+  /* border: 1px solid black; */
+  margin-top: 5%;
+  height: auto;
+  width: 80%;
+}
+.main-p-logo1 {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  mix-blend-mode: multiply;
+}
+.pat-signup-title {
+  /* border: 1px solid black; */
+  height: auto;
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  color: dodgerblue;
+  text-decoration: underline;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}
+.pat-signup-title1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  /* border: 1px solid black; */
+  height: auto;
+  width: 80%;
+  text-align: center;
+  font-size: x-large;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}
+.form1 {
+  /* border: 1px solid black; */
+  margin-top: 1%;
+  /* margin-bottom: 3%; */
+  height: auto;
+  width: 80%;
+
+  font-size: large;
+}
+.form1a {
+  /* border: 1px solid black; */
+  /* margin-bottom: 3%; */
+  height: auto;
+  width: 48%;
+  /* text-align: center; */
+  font-size: large;
+  /* display: inline-block; */
+  float: left;
+}
+.form1b {
+  /* border: 1px solid black; */
+  /* margin-bottom: 3%; */
+  height: auto;
+  width: 48%;
+  /* text-align: center; */
+  font-size: large;
+  /* display: inline-block; */
+  float: right;
+}
+label {
+  float: left;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: 1px solid dodgerblue;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: 1px solid dodgerblue;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: 1px solid dodgerblue;
+}
+
+input[type="tel"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: 1px solid dodgerblue;
+}
+
+.btnnn {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  /* border: 1px solid black; */
+  height: auto;
+  width: 80%;
+}
+.btnn1 {
+  border: none;
+  height: 40px;
+  width: 110px;
+  font-size: medium;
+  float: right;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: white;
+  text-shadow: 2px 2px 5px white;
+  text-align: center;
+}
+.btnn1:hover {
+  background-color: white;
+  box-shadow: 0 10px 10px rgb(154, 192, 230);
+  color: dodgerblue;
+  text-shadow: 2px 2px 5px rgb(186, 213, 241);
+}
+.btnn2 {
+  border: none;
+  height: 40px;
+  width: 110px;
+  font-size: medium;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 20px;
+  text-shadow: 2px 2px 5px white;
+  text-align: center;
+}
+.btnn2:hover {
+  background-color: white;
+  box-shadow: 0 10px 10px rgb(154, 192, 230);
+  color: dodgerblue;
+  text-shadow: 2px 2px 5px rgb(186, 213, 241);
+}
+
+.error-popup {
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffcccc;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: #ff0000;
+}
+
+.success-popup {
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.success-message {
+  font-size: 16px;
+}

@@ -1,0 +1,192 @@
+.section {
+  background: rgb(254,254,254);
+  background: linear-gradient(90deg, #fefefe 0%, #99c9f7 99%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.otp-welcome {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 10px;
+}
+
+.otp-logo-login {
+  /* border: 1px solid black; */
+  height: auto;
+  width: 80%;
+}
+.otp-logo1-login {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  mix-blend-mode: multiply;
+}
+.welcomeh1 {
+  
+  text-align: center;
+  /* line-height: normal; */
+  /* color: #000000;
+  font-weight: 500;
+  font-size: 1.875rem; */
+  margin-bottom: 1.5rem;
+  font-size:30px;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+  margin-bottom: 60px;
+}
+
+.icon1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+  width: 100%;
+  /* border: 1px solid black; */
+  font-size:25px;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}
+
+.otp1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: center;
+}
+
+
+.opt-container {
+ display: flex;
+ justify-content: space-between;
+ gap: 30px/* 8px */;
+ color: black;
+}
+
+.react-tel-input{
+  width: 100%;
+  padding-top: 1.5rem/* 24px */;
+  padding-bottom: 1.5rem/* 24px */;
+  font-size: 1rem/* 16px */ !important;
+  line-height: 1.5rem/* 24px */ !important;
+}
+
+
+.number{
+  width: 100%;
+  /* border: 1px solid black; */
+  font-size:25px;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}
+
+.verifybutton {
+  background-color: #0095b7;
+  width: 100%;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem;
+  color: #ffffff;
+  border-radius: 0.25rem;
+}
+
+
+.loadingspiner {
+  margin-top: 0.25rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.num-otp{
+  margin-left:20% ;
+}
+
+.verify {
+  color: #ffffff;
+  background-color: #0095b7;
+  width: 100%;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+}
+
+.email {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: center;
+}
+
+
+
+.btton {
+  border: none;
+  font-size: medium;
+  background-color: #0095b7;
+  width: auto;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem;
+  color: #ffffff;
+  /* border-radius: 0.25rem; */
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: white;
+  height: 40px;
+  text-shadow: 2px 2px 5px white;
+}
+
+.btton:hover {
+  background-color: white;
+  box-shadow: 0 10px 10px rgb(154, 192, 230);
+  color: dodgerblue;
+  text-shadow: 2px 2px 5px rgb(186, 213, 241);
+}
+
+.btton span,
+.verify span {
+  white-space: nowrap;
+}
+
+.loadingspiner {
+  margin-top: 0.25rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

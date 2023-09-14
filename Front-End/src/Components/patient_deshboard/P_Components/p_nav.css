@@ -1,0 +1,39 @@
+.dash-navbar {
+    position: fixed;
+    /* z-index: 2; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(254,254,254);
+    background: linear-gradient(90deg, rgba(254,254,254,1) 21%, rgba(153,201,247,1) 100%);
+    color: black;
+    box-shadow: rgba(10, 12, 14, 0.2) 5px 5px 10px 5px;
+    padding: 15px;
+  }
+  .doc_nav_logo {
+    height: 50px;
+    width: 50px;
+    margin: 5px 0 0 32px;
+    float: left;
+    mix-blend-mode: multiply;
+  }
+  .logout_doc_btn {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+    margin: 5px 25px 0 0;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px white;
+  }
+  
+  .logout_doc_btn:hover {
+    background-color: white;
+    box-shadow: 0 10px 10px rgb(154, 192, 230);
+    color: dodgerblue;
+    text-shadow: 2px 2px 5px rgb(186, 213, 241);
+  }

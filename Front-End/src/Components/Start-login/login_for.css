@@ -1,0 +1,9 @@
+.login_main_comp {
+  background: rgb(254, 254, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 254, 254, 1) 0%,
+    rgba(153, 201, 247, 1) 99%
+  );
+  height: 100vh;
+}

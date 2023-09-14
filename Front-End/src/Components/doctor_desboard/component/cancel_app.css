@@ -1,0 +1,76 @@
+.app_main {
+  /* border: 1px solid black; */
+  width: 80%;
+  float: right;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+  margin-right: 15px;
+}
+.app_title {
+  margin-right: 30px;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+  margin-bottom: 25px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+  text-decoration: underline;
+}
+.cancel_app_table {
+  width: 70%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table2 {
+  text-align: center;
+  width: 80%;
+  border: 1px solid dodgerblue;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-size: x-large;
+  color: black;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}
+.t2-tr {
+  height: 45px;
+}
+.t2-td:hover {
+  color: dodgerblue;
+}
+.cancel_app_btn {
+  text-align: center;
+  border: none;
+  margin-left: 18%;
+  height: 35px;
+  width: 110px;
+  font-size: medium;
+  background-color: dodgerblue;
+  color: white;
+  text-shadow: 2px 2px 5px white;
+  border-radius: 20px;
+}
+.cancel_app_btn:hover {
+  background-color: white;
+  box-shadow: 0 10px 10px rgb(154, 192, 230);
+  color: dodgerblue;
+  text-shadow: 2px 2px 5px rgb(186, 213, 241);
+}
+
+.no-data {
+  margin-right: 30px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+  font-size: x-large;
+}

@@ -1,0 +1,185 @@
+.patient_history {
+  width: 80%;
+  float: right;
+  height: auto;
+  margin-top: 8%;
+  margin-right: 15px;
+}
+.history_title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+  text-decoration: underline;
+}
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dropdown-container button {
+  margin-top: 20px;
+}
+.dropdown-button {
+  position: relative;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  margin-left: 30px;
+  background-color: dodgerblue;
+  color: white;
+  width: 200px;
+  padding: 15px 25px;
+  font-size: 17px;
+  border-radius: 15px;
+  text-shadow: 2px 2px 5px white;
+}
+.dropdown-button:hover {
+  background-color: white;
+  box-shadow: 0 10px 10px rgb(154, 192, 230);
+  text-shadow: 2px 2px 5px rgb(186, 213, 241);
+  color: dodgerblue;
+}
+
+.dropdown-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  transition: transform 0.3s;
+}
+
+.dropdown-icon.open {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.dropdown-content {
+  height: 100%;
+  padding: 10px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-content-img {
+  height: 100%;
+  padding: 10px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table9 {
+  text-align: center;
+  width: 60%;
+  border: 1px solid dodgerblue;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-size: x-large;
+  color: black;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}
+.t9-tr {
+  height: 40px;
+}
+.t9-td:hover {
+  color: dodgerblue;
+}
+
+.img-thumbnail-report {
+  /* border: 1px solid black; */
+  width: 60%;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.history_main {
+  /* border: 1px solid black; */
+  width: 80%;
+  float: right;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+  margin-right: 15px;
+}
+.history_title {
+  margin-right: 30px;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+  margin-bottom: 25px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+  text-decoration: underline;
+}
+.form1 {
+  /* border: 1px solid black; */
+  margin-top: 1%;
+  /* margin-bottom: 3%; */
+  height: auto;
+  width: 80%;
+
+  font-size: large;
+}
+
+label {
+  float: left;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: 1px solid dodgerblue;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: 1px solid dodgerblue;
+}
+.btn-his {
+  margin-top: 2%;
+  /* border: 1px solid black; */
+  height: auto;
+  width: 80%;
+}
+.btn1-rem {
+  border: none;
+  height: 40px;
+  width: 110px;
+  font-size: large;
+  float: right;
+  background-color: dodgerblue;
+  color: white;
+  text-shadow: 2px 2px 5px white;
+  border-radius: 20px;
+}
+.btn1-rem:hover {
+  background-color: white;
+  box-shadow: 0 10px 10px rgb(154, 192, 230);
+  color: dodgerblue;
+  text-shadow: 2px 2px 5px rgb(186, 213, 241);
+}
+
+.patient_history_doc_report {
+  width: 80%;
+  float: right;
+  height: auto;
+  margin-top: 4%;
+  margin-right: 15px;
+}

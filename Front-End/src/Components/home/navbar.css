@@ -1,0 +1,36 @@
+/* """"""""""""""""""""""""""""""""""""
+| CONTAINER # 1 for navbar|                        
+"""""""""""""""""""""""""""""""""""" */
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  box-shadow: rgba(10, 12, 14, 0.2) 5px 5px 10px 5px;
+  
+}
+.logooo {
+  height: 60px;
+  width: 70px;
+  margin: 15px 0 0 20px;
+  float: left;
+}
+.btn1 {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+  margin: 25px 25px 0 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: white;
+  box-shadow: 0 10px 10px rgb(154, 192, 230);
+  color: dodgerblue;
+  text-shadow: 2px 2px 5px rgb(186, 213, 241);
+}

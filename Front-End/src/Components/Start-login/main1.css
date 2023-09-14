@@ -1,0 +1,49 @@
+.login_div_1{
+  /* border: 1px solid rgb(113, 125, 125); */
+  border-radius: 5px;
+  height: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-main-logo{
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  height: auto;
+  width: 80%;
+}
+.login-main-logo1
+{
+  mix-blend-mode: multiply;
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signup-title
+{
+  /* border: 1px solid black; */
+  height: auto;
+  width: 80%;
+  text-align: center;
+  font-size:30px;
+  color: dodgerblue;
+  text-decoration:underline;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}
+.signup-title1
+{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  /* border: 1px solid black; */
+  height: auto;
+  width: 80%;
+  text-align: center;
+  font-size:x-large;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}

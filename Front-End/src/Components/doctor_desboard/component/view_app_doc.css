@@ -1,0 +1,57 @@
+.app_main {
+  /* border: 1px solid black; */
+  width: 80%;
+  float: right;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+  margin-right: 15px;
+}
+.app_title {
+  margin-right: 30px;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+  margin-bottom: 25px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+  text-decoration: underline;
+}
+.view_app_table {
+  width: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table1 {
+  text-align: center;
+  width: 80%;
+  border: 1px solid dodgerblue;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-size: x-large;
+  color: black;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+}
+.t1-tr {
+  height: 40px;
+}
+.t1-td:hover {
+  color: dodgerblue;
+}
+.no_data {
+  margin-right: 30px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  color: dodgerblue;
+  text-shadow: 0 10px 10px rgb(121, 174, 228);
+  font-size: x-large;
+}
